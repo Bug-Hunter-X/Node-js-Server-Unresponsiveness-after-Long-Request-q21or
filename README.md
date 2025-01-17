@@ -1,0 +1,2 @@
+# Node.js Server Unresponsiveness
+This repository demonstrates a common issue in Node.js servers where long-running requests can block the event loop, making the server unresponsive to other requests.  The example uses Express.js and simulates a long request with `setTimeout`.  The solution shows how to mitigate this by using asynchronous operations or a worker pool.
